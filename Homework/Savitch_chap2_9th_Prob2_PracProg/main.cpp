@@ -28,25 +28,25 @@ int main(int argc, char** argv) {
     //Initialize variables
 
     //Input values
-    cout<< "What is your old yearly salary? "<<endl; 
+    cout<<"What is your old yearly salary?"<<endl; 
     cin>>osalary;
     
     //calculate monthly salary
     omsalary = osalary / 12;
     
     //New salary
-    nsalary = osalary * ( 1 + percinc);
+    nsalary = osalary * ( 1 + percinc );
     
     //New monthly salary
     nmsalary = nsalary / 12;
     
     //Months of back pay
-    cout<<"how many months of back pay are you owed? "<<endl;
+    cout<<"how many months of back pay are you owed?"<<endl;
     cin>>bkpymon;
     
     
     //Amount of back pay
-    backpay = (nsalary - osalary) / bkpymon;
+    backpay = (nsalary - osalary) / (12 / bkpymon);
     
     cout<<"Your old Annual salary was  $"<<osalary<<endl;
     cout<<"Your old Monthly salary was $"<<omsalary<<endl;

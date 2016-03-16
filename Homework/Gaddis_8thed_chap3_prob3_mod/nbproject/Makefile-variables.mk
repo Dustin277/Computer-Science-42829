@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=savitch_chap2_9th_prob2_pracprog
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/savitch_chap2_9th_prob2_pracprog
+CND_ARTIFACT_NAME_Debug=gaddis_8thed_chap3_prob3_mod
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/gaddis_8thed_chap3_prob3_mod
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=savitchchap29thprob2pracprog.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/savitchchap29thprob2pracprog.tar
+CND_PACKAGE_NAME_Debug=gaddis8thedchap3prob3mod.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/gaddis8thedchap3prob3mod.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=savitch_chap2_9th_prob2_pracprog
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/savitch_chap2_9th_prob2_pracprog
+CND_ARTIFACT_NAME_Release=gaddis_8thed_chap3_prob3_mod
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/gaddis_8thed_chap3_prob3_mod
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=savitchchap29thprob2pracprog.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/savitchchap29thprob2pracprog.tar
+CND_PACKAGE_NAME_Release=gaddis8thedchap3prob3mod.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/gaddis8thedchap3prob3mod.tar
 #
 # include compiler specific variables
 #

@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Savitch_chap2_9th_Prob2_PracProg
+PROJECTNAME=Ternary
 
 # Active Configuration
 DEFAULTCONF=Debug
