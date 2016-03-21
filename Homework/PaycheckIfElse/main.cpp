@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
  * Author: Dustin Badillo
- * Created on March 9, 2016, 9:45 AM
- * Purpose: Salary
+ * Created on March 16, 2016, 9:45 AM
+ * Purpose: dependent ifs
  */
 
 //System Libraries
@@ -29,9 +29,15 @@ float ovrTime=40; //where overtime begins
     cin>>payRate>>hrsWrkd;
             
     //Map the inputs to the outputs
-    if (hrsWrkd <= ovrTime)payChk=hrsWrkd*payRate;
-    if (hrsWrkd > ovrTime)payChk=hrsWrkd*payRate+(hrsWrkd-ovrTime)*payRate;
-    if(hrsWrkd < 0 || hrsWrkd > 98)payChk = 0; 
+    if (hrsWrkd <= 0){
+        payChk=0;
+    }else if(hrsWrkd <=40){
+        payChk=hrsWrkd*payRate;
+    }else if (hrsWrkd <= 98){
+        payChk=hrsWrkd*payRate+(hrsWrkd-ovrTime)*payRate;
+    }else{
+        payChk = 0; 
+    }
   
     //output results
     cout<<"Paycheck = $"<<payChk<<" for "

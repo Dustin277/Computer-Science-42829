@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Dustin Badillo
  * Created on March 9, 2016, 9:45 AM
- * Purpose: Salary
+ * Purpose: ifs
  */
 
 //System Libraries
@@ -19,7 +19,7 @@ using namespace std;
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare variables no doubles
-float payRate, hrsWrkd, payCheck;
+float payRate, hrsWrkd, payChk;
 float ovrTime=40; //where overtime begins
     //Initialize variables
 
@@ -29,12 +29,13 @@ float ovrTime=40; //where overtime begins
     cin>>payRate>>hrsWrkd;
             
     //Map the inputs to the outputs
-    if (hrsWrkd <= overTime)payCheck=hrsWrkd*payRate;
-    if (hrsWrkd > ovrTime)payCheck=hrsWrkd*payRate+(hrsWrkd-ovrTime)*payRate;
+    if (hrsWrkd <= ovrTime)payChk=hrsWrkd*payRate;
+    if (hrsWrkd > ovrTime)payChk=hrsWrkd*payRate+(hrsWrkd-ovrTime)*payRate;
+    if (hrsWrkd <0 || hrsWrkd >98)payChk=0;
   
     //output results
-    cout<<"Paycheck = $"<<payCheck<<" for "
-            <<hrsWrkd<<" hours worked @ $"<<payRate<<"/hr"endl;
+    cout<<"Paycheck = $"<<payChk<<" for "
+            <<hrsWrkd<<" hours worked @ $"<<payRate<<"/hr"<<endl;
     //Exit Stage Right!
     return 0;
 }

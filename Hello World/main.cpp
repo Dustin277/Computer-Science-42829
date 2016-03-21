@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
  * Author: Dustin Badillo
- * Created on March 9, 2016, 9:45 AM
- * Purpose: Salary
+ * Created on March 16, 2016, 9:45 AM
+ * Purpose: 
  */
 
 //System Libraries
