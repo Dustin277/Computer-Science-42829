@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Dustin Badillo
  * Created on March 21, 2016, 9:45 AM
- * Purpose: LAB 1 Lottery
+ * Purpose: LAB 1 Lottery/ Truth
  */
 
 #include <iostream>
